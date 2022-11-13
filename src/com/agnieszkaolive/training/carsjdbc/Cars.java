@@ -1,6 +1,7 @@
 package com.agnieszkaolive.training.carsjdbc;
 
 public class Cars {
+    private int id;
     private String brand;
     private int speed;
     private int age;
@@ -8,10 +9,19 @@ public class Cars {
     public Cars() {
     }
 
-    public Cars(String brand, int speed, int age) {
+    public Cars(int id, String brand, int speed, int age) {
+        this.id = id;
         this.brand = brand;
         this.speed = speed;
         this.age = age;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getBrand() {
@@ -41,7 +51,8 @@ public class Cars {
     @Override
     public String toString() {
         return "Cars{" +
-                "brand='" + brand + '\'' +
+                "id=" + id +
+                ", brand='" + brand + '\'' +
                 ", speed=" + speed +
                 ", age=" + age +
                 '}';
