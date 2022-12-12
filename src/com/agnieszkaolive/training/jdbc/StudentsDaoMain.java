@@ -17,3 +17,10 @@ public class StudentsDaoMain {
         agaStudentsDao.insertIntoStudents(krystianStudents);
     }
 }
+// TODO: 11/30/2022 dla klas JDBC main (czerwone) zrobic nowy branch
+// dodac nowe pliki na branch (git add)
+// zrobic commit nowych plikow
+// zrobic push dla powyzszego commit
+// na gitHub zrobic pull request
+// na github zrobic merge
+// w Intellj pobrac zmiany z github i zrobic porzadek z branchami
